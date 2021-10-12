@@ -5,11 +5,11 @@ pipeline {
     
   stages {
         
-    stage('Git') {
-      steps {
-        git 'https://github.com/AnthonyChraim/Autotracks'
-      }
-    }
+//     stage('Git') {
+//       steps {
+//         git 'https://github.com/AnthonyChraim/Autotracks'
+//       }
+//     }
      
     stage('Build') {
       steps {
