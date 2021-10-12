@@ -7,8 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                bat 'cd .\coreui-template-code\'
-                    bat 'npm install'
+                bat 'npm install'
             }
         }
         stage('Test') {
