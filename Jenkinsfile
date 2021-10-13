@@ -9,7 +9,7 @@ pipeline {
                 echo 'Building..'
                 bat """
                     cd coreui-template-code
-                    cd coreui-template-code 
+                    npm install 
                     """.stripIndent().trim()
             }
         }
