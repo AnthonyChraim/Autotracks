@@ -9,7 +9,7 @@ pipeline {
                 echo 'Building..'
                 bat """
                     cd coreui-template-code
-                    npm install 
+                    npm install --legacy-peer-deps
                     """.stripIndent().trim()
             }
         }
